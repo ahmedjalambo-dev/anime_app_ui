@@ -1,4 +1,4 @@
-import 'package:anime_app/features/home/ui/screens/home_screen.dart';
+import 'package:anime_app/features/details/ui/screens/details_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class AnimeApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Anime App',
       theme: ThemeData(fontFamily: 'Raleway'),
-      home: HomeScreen(),
+      home: DetailsScreen(),
     );
   }
 }
